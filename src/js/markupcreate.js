@@ -1,5 +1,4 @@
 import { refs } from './refs';
-
 export function markupCreate(photos) {
   return refs.gallery.insertAdjacentHTML(
     'beforeend',
